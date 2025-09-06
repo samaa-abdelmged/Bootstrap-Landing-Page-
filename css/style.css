@@ -1,0 +1,85 @@
+/* General styles */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Hero section */
+.hero {
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    background: #fff8e1;
+}
+
+/* Section titles */
+.section-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Cards */
+.custom-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* General reset for images inside the website */
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Slider images */
+.carousel-item img {
+    height: 400px;
+}
+
+/* Card images */
+.card img {
+    height: 200px;
+}
+
+/* Contact image - نفس ارتفاع الفورم */
+.contact {
+    width: 100%;
+    height: 100%;
+    /* ياخد طول العمود بالكامل */
+    object-fit: cover;
+    /* يظبط نسبة العرض والارتفاع */
+    border-left: 3px solid #ffc107;
+    border-radius: 0;
+}
+
+
+/* Footer */
+.custom-footer {
+    border-top: 5px solid #ffc107;
+}
+
+.custom-footer .copyright {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Change carousel arrows color */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(61%) sepia(95%) saturate(1000%) hue-rotate(5deg) brightness(95%) contrast(105%);
+    /* دهبي */
+}
+
+/* Change carousel background to black */
+.carousel-inner {
+    background-color: #000;
+    /* أسود */
+}
